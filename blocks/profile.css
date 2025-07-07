@@ -1,0 +1,143 @@
+.profile {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+
+  margin: 0 auto;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 64.2%;
+  row-gap: 30px;
+}
+
+.profile__avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: auto;
+}
+
+.profile__info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.profile__name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile__name-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 39px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile__edit-button {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border: 1px solid #ffffff;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__edit-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+.profile__edit-button-image {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.profile__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.profile__add-button {
+  height: 50px;
+  width: 17.05%;
+  background-color: black;
+  border: none;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/Add-Button.png);
+}
+.profile__add-button:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .profile {
+    padding: 42px 19px 0px;
+    flex-direction: column;
+    gap: 36px;
+    width: 88.13%;
+  }
+  .profile__info {
+    flex-direction: column;
+  }
+  .profile__info__text {
+    align-items: center;
+    gap: 14px;
+    max-width: 196px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+  .profile__name {
+    gap: 10px;
+  }
+  .profile__name__text {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .profile__name__edit-button {
+    padding: 5.25px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    bottom: 1.25px;
+  }
+  .profile__name__edit-button-image {
+    width: 7.5px;
+    height: 7.5px;
+  }
+  .profile__description {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .profile__add-button {
+    width: 100%;
+    background-size: 6.11%;
+  }
+}

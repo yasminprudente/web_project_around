@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Yasmin Prudente" />
+    <meta name="description" content="Projeto Homeland Around the US" />
+    <meta name="keywords" content="projeto, viagens, explorar" />
+    <title>Projeto EUA Afora</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="./images/Vector.png"
+          alt="Logotipo Around US"
+        />
+      </header>
+      <section class="profile">
+        <div class="profile__info">
+          <img
+            src="./images/profile.JPG"
+            alt="imagem do autor da página"
+            class="profile__avatar"
+          />
+          <div class="profile__info-text">
+            <div class="profile__name">
+              <h1 class="profile__name-text">Yasmin Prudente</h1>
+              <button class="profile__edit-button" aria-label="Editar">
+                <img
+                  src="./images/Edit-Button.png"
+                  alt=""
+                  class="profile__edit-button-image"
+                />
+              </button>
+            </div>
+            <p class="profile__description">Explorador</p>
+          </div>
+        </div>
+        <button class="profile__add-button"></button>
+      </section>
+      <section class="elements">
+        <div class="elements__element">
+          <img
+            src="./images/image-valedoyosemite.jpg"
+            alt="Imagem do vale do yosemite nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Vale do Yosemite</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="elements__element">
+          <img
+            src="./images/image-lagolouise.png"
+            alt="Imagem do lago louise nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Lago Louise</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="elements__element">
+          <img
+            src="./images/image-montanhascare.png"
+            alt="Imagem de montanhas nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Montanhas Care...</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="elements__element">
+          <img
+            src="./images/images-latemar.png"
+            alt="Imagem de latemar nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Latemar</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="elements__element">
+          <img
+            src="./images/images-parquenacional.png"
+            alt="Imagem do parque nacional nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Parque Nacional...</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="elements__element">
+          <img
+            src="./images/images-lagodibraies.png"
+            alt="Imagem do lago di braies nos eua"
+            class="elements__image"
+          />
+          <div class="elements__info">
+            <p class="elements__text">Lago Di Braies</p>
+            <a href="" class="elements__heart">
+              <img src="./images/heart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2025 Around The U.S.</p>
+      </footer>
+      <section class="popup">
+        <div class="popup__container">
+          <img
+            src="images/close-button.png"
+            class="popup__close-button"
+            alt="Fechar"
+          />
+          <form class="popup__form">
+            <p class="popup__text">Editar perfil</p>
+            <input
+              id="name"
+              type="text"
+              class="popup__form-elements"
+              placeholder="Nome"
+            />
+            <input
+              id="about"
+              type="text"
+              class="popup__form-elements"
+              placeholder="Sobre mim"
+            /><button aria-label="Salvar" class="popup__submit">Salvar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
